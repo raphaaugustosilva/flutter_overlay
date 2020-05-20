@@ -2,12 +2,12 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:overlay/view/viewQualquer.dart';
 
-class View01 extends StatefulWidget {
+class ViewPrincipal extends StatefulWidget {
   @override
-  _View01State createState() => _View01State();
+  _ViewPrincipalState createState() => _ViewPrincipalState();
 }
 
-class _View01State extends State<View01> {
+class _ViewPrincipalState extends State<ViewPrincipal> {
   OverlayEntry overlayView;
   OverlayEntry overlayWidget;
 
